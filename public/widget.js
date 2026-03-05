@@ -180,7 +180,7 @@
     sendBtn.disabled = !inputEl.value.trim() || isSending;
   });
   inputEl.addEventListener("keydown", function (e) {
-    if (e.key === "Enter" && !e.shiftKey) {
+    if (e.key === "Enter" && (e.metaKey || e.ctrlKey)) {
       e.preventDefault();
       sendMessage();
     }
