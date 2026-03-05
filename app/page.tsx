@@ -8,7 +8,7 @@ export default function Home() {
           Feedback Widget
         </h1>
         <p className="text-neutral-500 mb-8 leading-relaxed">
-          どのサイトにも1行で埋め込めるAIフィードバックウィジェット。<br />
+          どのサイトにも1行で埋め込めるフィードバックウィジェット。<br />
           右下のボタンを押して試してみてください。
         </p>
         <div className="bg-white rounded-xl p-6 text-left shadow-sm">
